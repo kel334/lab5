@@ -1,6 +1,7 @@
 # Kendra Ludwig (kel334)
 # Rebecca Chavez (rlc397)
 
+
 art = {'a one' : '***',
        'a two' : '* *',
        'a three' : '*****',
