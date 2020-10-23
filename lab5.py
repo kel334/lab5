@@ -10,6 +10,7 @@ art = {'a one' : '****',
        'b three' : '****',
        'b four' : '****'
       }
+
        
 def main():
     def tests():
@@ -21,5 +22,8 @@ def main():
        print(art['a two'] + ' ' + art['b two'])
        print(art['a three'] + ' ' + art['b three'])
        print( art['a four'] + ' ' + art['b four'])
+    tests()
 
-main()
+
+if __name__ == "__main__":
+    main()
