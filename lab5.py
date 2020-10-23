@@ -1,14 +1,16 @@
 # Kendra Ludwig (kel334)
 # Rebecca Chavez (rlc397)
 
-art = {'a one' : '****',
-       'a two' : '*  *',
-       'a three' : '****',
-       'a four' : '*  *',
-       'b one' : '****',
-       'b two' : '*  *',
-       'b three' : '****',
-       'b four' : '****'
+art = {'a one' : '*****',
+       'a two' : '*   *',
+       'a three' : '*****',
+       'a four' : '*   *',
+       'a five; : '*   *',
+       'b one' : '*****',
+       'b two' : '*   *',
+       'b three' : '*****',
+       'b four' : '*   *'
+       'b five' : '*****'
       }
 
        
