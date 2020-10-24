@@ -3,19 +3,161 @@
 
 
 # building blocks for the ASCII char
-art = {'a one' : '***',
-       'a two' : '* *',
+art = {'a one' : '*****',
+       'a two' : '*   *',
        'a three' : '*****',
        'a four' : '*   *',
-       'a five' : '*   *',
+       'a five; : '*   *',
 
        'b one' : '*****',
-       'b two' : '**  *',
-       'b three' : '****',
-       'b four' : '**  *',
-       'b five' : '*****'
+       'b two' : '*   *',
+       'b three' : '*****',
+       'b four' : '*   *',
+       'b five' : '*****',
 
-       # C-Z go here
+       'c one' : '*****',
+       'c two' : '*    ',
+       'c three' : '*   ',
+       'c four' : '*    ',
+       'c five' : '*****',
+
+       'd one' : '**** ',
+       'd two' : '*   *',
+       'd three' : '*   *',
+       'd four' : '*   *',
+       'd five' : '**** '
+
+       'e one' : '*****'
+       'e two' : '*    ',
+       'e three' : '*****',
+       'e four' : '*    '
+       'e five' : '*****',
+
+       'f one' : '*****',
+       'f two' : '*    ',
+       'f three' : '*****',
+       'f four' : '*    ',
+       'f five' : '*    ',
+
+       'g one' : '*****',
+       'g two' : '*    ',
+       'g three' : '* ***',
+       'g four' : '*   *',
+       'g five' : '*****',
+
+       'h one' : '*   *',
+       'h two' : '*   *',
+       'h three' : '*****',
+       'h four' : '*   *',
+       'h five' : '*   *',
+
+       'i one' : '*****'
+       'i two' : '  *  ', 
+       'i three' '  *  ',
+       'i four' : '  *  ',
+       'i five' : '*****',
+
+       'j one' : '    *',
+       'j two' : '    *',
+       'j three' : '*   *',
+       'j four' : '*   *',
+       'j five' : '*****',
+
+       'k one' : '*   *',
+       'k two' : '*  * ',
+       'k three' : '**   ',
+       'k four' : '* *  ',
+       'k five' : '*   *',
+
+       'l one' : '*    ',
+       'l two' : '*    ',
+       'l three' : '*    ',
+       'l four' : '*    ',
+       'l five' : '*****',
+
+       'm one' : '*   *',
+       'm two' : '** **',
+       'm three' : '* * *',
+       'm four' : '*   *',
+       'm five' : '*   *',
+
+       'n one' : '*   *',
+       'n two' : '**  *',
+       'n three' : '* * *',
+       'n four' : '*  **',
+       'n five' : '*   *',
+
+       'o one' : ' *** ',
+       'o two' : '*   *',
+       'o three' : '*   *',
+       'o four' : '*   *',
+       'o five' : ' *** ',
+
+       'p one' : '*****',
+       'p two' : '*   *',
+       'p three' : '*****',
+       'p four' : '*    ',
+       'p five' : '*     ',
+
+       'q one' : '*****',
+       'q two' : '*   *',
+       'q three' : '* * *',
+       'q four' : '*  **',
+       'q five' : '*****',
+
+       'r one' : '*****',
+       'r two' : '*   *',
+       'r three' : '**** ',
+       'r four' : '*   *',
+       'r five' : '*   *',
+
+       's one' : '*****',
+       's two' : '*    ',
+       's three' : '*****',
+       's four' : '    *',
+       's five' : '*****',
+
+       't one' : '*****',
+       't two' : '  *  ', 
+       't three' : '  *  ',
+       't four' : '  *  ',
+       't five' : '  *  ',
+
+       'u one' : '*   *',
+       'u two' : '*   *',
+       'u three' : '*   *',
+       'u four' : '*   *',
+       'u five' : '*****',
+
+       'v one' : '*   *',
+       'v two' : '*   *',
+       'v three' : ' * * ',
+       'v four' : ' * * ',
+       'v five' : '  *  ',
+
+       'w one' : '*   *',
+       'w two' : '*   *',
+       'w three' : '* * *',
+       'w four' : '** **',
+       'w five' : '*   *',
+
+       'x one' : '*   *',
+       'x two' : ' * * ',
+       'x three' : '  *  ',
+       'x four' : ' * * ',
+       'x five' : '*   *',
+
+       'y one' : '*   *',
+       'y two' : ' * * ',
+       'y three' : '  *  ',
+       'y four' : '  *  ',
+       'y five' : '  *  ',
+
+       'z one' : '*****',
+       'z two' : '   * ',
+       'z three' : '  *  ',
+       'z four' : ' *   ',
+       'z five' : '*****'
       }
 
        
