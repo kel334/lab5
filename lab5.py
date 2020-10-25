@@ -166,13 +166,27 @@ def main():
     direct = input("Please pick a direction, vertical or horizontal: ")
     word = input("Please enter a word: ")
     W = word.upper()
-    
+    if direct == vertical:
+       vertical(word)
+    elif direct == horizontal:
+       horizontal(word)
 
 def prep_word():
     for i in range(len(W))
         term = W[i]
     return term
 
+def vertical(word):
+       for num in range(len(word)):
+              print(art[word[num] + ' one'])
+              print(art[word[num] + ' two'])
+              print(art[word[num] + ' three'])
+              print(art[word[num] + ' four'])
+              print(art[word[num] + ' five'])
+              print(' ')
+
+def horizontal(word):
+       pass
 
 def find_char():
     # In statement?
