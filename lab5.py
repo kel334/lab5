@@ -160,7 +160,8 @@ art = {'a one' : '*****',
        'z five' : '*****'
       }
 
-       
+     
+#get word and style from user
 def main():
     print("Hello and welcome to the ASCII station!")
     direct = input("Please pick a direction, vertical or horizontal: ")
@@ -171,6 +172,7 @@ def main():
        horizontal(word)
 
 
+#display banner vertically
 def vertical(word):
        for num in range(len(word)):
               print(art[word[num] + ' one'])
@@ -181,6 +183,7 @@ def vertical(word):
               print(' ')
 
 
+#display banner horizontally
 def horizontal(word):
        first_lines = ''
        second_lines = ''
