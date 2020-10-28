@@ -7,7 +7,7 @@ art = {'a one' : '*****',
        'a two' : '*   *',
        'a three' : '*****',
        'a four' : '*   *',
-       'a five; : '*   *',
+       'a five' : '*   *',
 
        'b one' : '*****',
        'b two' : '*   *',
