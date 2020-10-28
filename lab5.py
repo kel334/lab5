@@ -53,7 +53,7 @@ art = {'a one' : '*****',
 
        'i one' : '*****',
        'i two' : '  *  ', 
-       'i three' '  *  ',
+       'i three' : '  *  ',
        'i four' : '  *  ',
        'i five' : '*****',
 
