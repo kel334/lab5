@@ -165,9 +165,9 @@ def main():
     print("Hello and welcome to the ASCII station!")
     direct = input("Please pick a direction, vertical or horizontal: ")
     word = input("Please enter a word: ")
-    if direct == vertical:
+    if direct == 'vertical':
        vertical(word)
-    elif direct == horizontal:
+    elif direct == 'horizontal':
        horizontal(word)
 
 
