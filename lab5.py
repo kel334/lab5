@@ -165,16 +165,12 @@ def main():
     print("Hello and welcome to the ASCII station!")
     direct = input("Please pick a direction, vertical or horizontal: ")
     word = input("Please enter a word: ")
-    W = word.upper()
+    w = word.lower()
     if direct == vertical:
-       vertical(word)
+       vertical(w)
     elif direct == horizontal:
-       horizontal(word)
+       horizontal(w)
 
-def prep_word():
-    for i in range(len(W))
-        term = W[i]
-    return term
 
 def vertical(word):
        for num in range(len(word)):
@@ -185,20 +181,24 @@ def vertical(word):
               print(art[word[num] + ' five'])
               print(' ')
 
+
 def horizontal(word):
-       pass
-
-def find_char():
-    # In statement?
-
-
-    # def tests():
-       print(' ' + art['a one'] + '   ' + art['b one'])
-       print(' ' + art['a two'] + '   ' + art['b two'])
-       print(art['a three'] + '  ' + art['b three'])
-       print(art['a four'] + '  ' + art['b four'])
-       print(art['a five'] + '  ' + art['b five'])
-    tests()
+       first_lines = ''
+       second_lines = ''
+       third_lines = ''
+       fourth_lines = ''
+       fifth_lines = ''
+       for num in range(len(word)):
+              first_lines += art[word[num] + ' one'] + ' '
+              second_lines += art[word[num] + ' two'] + ' '
+              third_lines += art[word[num] + ' three'] + ' '
+              fourth_lines += art[word[num] + ' four'] + ' '
+              fifth_lines += art[word[num] + ' five'] + ' '
+       print(first_lines)
+       print(second_lines)
+       print(third_lines)
+       print(fourth_lines)
+       print(fifth_lines) 
 
 
 if __name__ == "__main__":
