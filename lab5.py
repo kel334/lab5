@@ -25,12 +25,12 @@ art = {'a one' : '*****',
        'd two' : '*   *',
        'd three' : '*   *',
        'd four' : '*   *',
-       'd five' : '**** '
+       'd five' : '**** ',
 
-       'e one' : '*****'
+       'e one' : '*****',
        'e two' : '*    ',
        'e three' : '*****',
-       'e four' : '*    '
+       'e four' : '*    ',
        'e five' : '*****',
 
        'f one' : '*****',
@@ -51,7 +51,7 @@ art = {'a one' : '*****',
        'h four' : '*   *',
        'h five' : '*   *',
 
-       'i one' : '*****'
+       'i one' : '*****',
        'i two' : '  *  ', 
        'i three' '  *  ',
        'i four' : '  *  ',
