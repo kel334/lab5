@@ -165,11 +165,10 @@ def main():
     print("Hello and welcome to the ASCII station!")
     direct = input("Please pick a direction, vertical or horizontal: ")
     word = input("Please enter a word: ")
-    w = word.lower()
     if direct == vertical:
-       vertical(w)
+       vertical(word)
     elif direct == horizontal:
-       horizontal(w)
+       horizontal(word)
 
 
 def vertical(word):
