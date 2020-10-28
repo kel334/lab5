@@ -17,7 +17,7 @@ art = {'a one' : '*****',
 
        'c one' : '*****',
        'c two' : '*    ',
-       'c three' : '*   ',
+       'c three' : '*    ',
        'c four' : '*    ',
        'c five' : '*****',
 
